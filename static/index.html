@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My little chat app</title>
+</head>
+<body>
+  <h1>My little chat app</h1>
+
+  <form class="chat-form">
+    <label class="chat-label">
+        Enter a message:
+        <input type="text" class="chat-input">
+    </label>
+    <input type="submit" class="chat-submit" value="enter">
+  </form>
+
+<div class="chat-dump"></div>
+
+  <script src="socket.io/socket.io.js"></script> <!-- permite que o cliente tenha acesso ao socket-->
+  <script src="app.js"></script>
+</body>
+</html>
